@@ -1,0 +1,43 @@
+
+ body {
+     background-color: #ddd6f3;  /* fallback for old browsers */
+     background: -webkit-linear-gradient(to right, #faaca8, #ddd6f3);  /* Chrome 10-25, Safari 5.1-6 */
+     background: linear-gradient(to right, #faaca8, #ddd6f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      ;
+    
+
+ }
+
+ h1{
+    color:deeppink;
+     background-color: #ddd6f3;
+     font-family: 'Neonderthaw', cursive;
+     
+
+ }
+ #show_sketch
+ {
+     float:right;
+ }
+
+ canvas
+ {
+    border:5px solid white;
+    border-radius: 20px; 
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+   
+ }
+
+ @keyframes example
+ {
+     from{box-shadow: 1px 1px 38px grey;}
+     to{box-shadow: 1px 1px 38 white;}
+ }
+
+ p 
+ {
+     padding-top: 10px;
+     font-size:25px;
+ }
